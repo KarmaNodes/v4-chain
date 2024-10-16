@@ -29,19 +29,21 @@ fi
 
 VERSION="v4.1.0"
 WORKDIR=$HOME/.dydxprotocol
-CHAIN_ID="dydx-mainnet-1"
-SEED_NODES=("ade4d8bc8cbe014af6ebdf3cb7b1e9ad36f412c0@seeds.polkachu.com:23856", 
-"65b740ee326c9260c30af1f044e9cda63c73f7c1@seeds.kingnodes.net:23856", 
-"f04a77b92d0d86725cdb2d6b7a7eb0eda8c27089@dydx-mainnet-seed.bwarelabs.com:36656",
-"20e1000e88125698264454a884812746c2eb4807@seeds.lavenderfive.com:23856",
-"c2c2fcb5e6e4755e06b83b499aff93e97282f8e8@tenderseed.ccvalidators.com:26401",
+CHAIN_ID="dydx-testnet-4"
+SEED_NODES=("19d38bb5cea1378db3e16615e63594dc26119a1a@dydx-testnet4-seednode.allthatnode.com:26656", 
+"87ee8de5f0f82af6ee6740a30f8844bbe6434413@seed.dydx-testnet.cros-nest.com:26656
+", 
+"38e5a5ec34c578dc323cbdd9b98330abb448d586@tenderseed.ccvalidators.com:29104
+",
+"80a1a6cd086634c34008c6457d3f7441cfc05c47@seeds.kingnodes.com:27056
+",
+"182ab0015fb4b7d751b12a9c0162ac123445eac1@seed.dydx-testnet.stakingcabin.com:26656",
 "a9cae4047d5c34772442322b10ef5600d8e54900@dydx-mainnet-seednode.allthatnode.com:26656",
-"802607c6db8148b0c68c8a9ec1a86fd3ba606af6@64.227.38.88:26656",
-"ebc272824924ea1a27ea3183dd0b9ba713494f83@dydx-mainnet-seed.autostake.com:27366"
+"802607c6db8148b0c68c8a9ec1a86fd3ba606af6@64.227.38.88:26656"
 )
-BASE_SNAPSHOT_URL="https://snapshots.polkachu.com/snapshots/"
+BASE_SNAPSHOT_URL="https://bwarelabs.com/snapshots/dydx"
 # Add random number to the end of name to keep a unique name for the node
-NODE_NAME="FullNodeMainnet-$RANDOM" 
+NODE_NAME="Karma_Nodes" 
 
 # Update system and install dependencies
 
